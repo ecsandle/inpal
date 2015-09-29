@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elisandler.inspirationpal" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".recordWorkOut"
+            android:label="@string/title_activity_record_work_out" >
+        </activity>
+        <activity
+            android:name=".Squat"
+            android:label="@string/title_activity_squat"
+            android:parentActivityName=".recordWorkOut" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.recordWorkOut" />
+        </activity>
+        <activity
+            android:name=".PushUp"
+            android:label="@string/title_activity_push_up"
+            android:parentActivityName=".recordWorkOut" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.recordWorkOut" />
+        </activity>
+        <activity
+            android:name=".Weights"
+            android:label="@string/title_activity_weights"
+            android:parentActivityName=".recordWorkOut" >
+        </activity>
+        <activity
+            android:name=".Cardio"
+            android:label="@string/title_activity_cardio"
+            android:parentActivityName=".recordWorkOut" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.recordWorkOut" />
+        </activity>
+        <activity
+            android:name=".Calender"
+            android:label="@string/title_activity_calender"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ClickableCreateWorkOutList"
+            android:label="@string/title_activity_clickable_create_work_out_list"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SetUpExercise"
+            android:label="@string/title_activity_set_up_exercise" >
+        </activity>
+        <activity
+            android:name=".NameWorkout"
+            android:label="@string/title_activity_name_workout" >
+        </activity>
+        <activity
+            android:name=".CreateWorkout"
+            android:label="@string/title_activity_create_workout"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.MainActivity" />
+        </activity>
+        <activity
+            android:name=".myCalendar"
+            android:label="@string/title_activity_my_calendar" >
+        </activity>
+        <activity
+            android:name=".HistoryGraph"
+            android:label="@string/title_activity_history_graph" >
+        </activity>
+        <activity
+            android:name=".InitialSetup"
+            android:label="@string/title_activity_initial_setup" >
+        </activity>
+        <activity
+            android:name=".MyFriendsList"
+            android:label="@string/title_activity_my_friends_list"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.elisandler.inspirationpal.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

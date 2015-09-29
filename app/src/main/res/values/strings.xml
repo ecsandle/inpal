@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">InspirationPal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_record_work_out">Log Work Out</string>
+    <string name="title_activity_squat">Squat</string>
+    <string name="title_activity_push_up">Push-Up</string>
+    <string name="title_activity_weights">Weights</string>
+    <string name="title_activity_cardio">Cardio</string>
+    <string name="title_activity_calender">Calender</string>
+    <string name="title_activity_clickable_create_work_out_list">Pick Workouts</string>
+    <string name="title_activity_set_up_exercise">SetUpExercise</string>
+    <string name="title_activity_name_workout">NameWorkout</string>
+    <string name="title_activity_create_workout">InsperationPal</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_my_calendar">Calendar</string>
+    <string name="title_activity_history_graph">History Graph</string>
+    <string name="title_activity_initial_setup">Initial Setup</string>
+    <string name="pref_previously_started">pref_previously_started</string>
+    <string name="title_activity_my_friends_list">MyFriendsList</string>
+</resources>

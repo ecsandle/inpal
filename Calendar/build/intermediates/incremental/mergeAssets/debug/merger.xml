@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/elisandler/AndroidStudioProjects/InspirationPal/Calendar/src/main/assets"><file name="roboto_light.ttf" path="/Users/elisandler/AndroidStudioProjects/InspirationPal/Calendar/src/main/assets/roboto_light.ttf"/></source></dataSet><dataSet config="debug"><source path="/Users/elisandler/AndroidStudioProjects/InspirationPal/Calendar/src/debug/assets"/></dataSet></merger>
